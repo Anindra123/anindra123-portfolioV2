@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Latin Modern Mono";
+  src: url("../fonts/latin-modern-mono/lmmono10-regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+  font-family: "Latin Modern Mono";
+}
+
+.content {
+  padding-bottom: 15rem;
+}

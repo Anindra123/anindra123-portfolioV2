@@ -1,0 +1,17 @@
+.navContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 0.1rem solid black;
+}
+
+.navLinks {
+  list-style-type: none;
+}
+
+.navLinks > li {
+  display: inline;
+  margin-right: 2rem;
+}
