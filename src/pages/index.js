@@ -1,10 +1,12 @@
 import * as React from "react";
+import HomepageBody from "../components/HomepageBody";
+
 import Layout from "../components/layout";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <h3>This will be the homepage</h3>
+      <HomepageBody />
     </Layout>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { navContainer, navLinks } from "./nav.module.css";
+import { navContainer, navLinks, link } from "./nav.module.css";
 import { Link } from "gatsby";
 const Nav = () => {
   return (
@@ -11,19 +11,29 @@ const Nav = () => {
         <nav>
           <ul className={navLinks}>
             <li>
-              <Link to="/">Home</Link>
+              <Link className={link} to="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/skills">Skills</Link>
+              <Link className={link} to="/skills">
+                Skills
+              </Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link className={link} to="/projects">
+                Projects
+              </Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link className={link} to="/contact">
+                Contact
+              </Link>
             </li>
             <li>
-              <Link to="/experience">Experience</Link>
+              <Link className={link} to="/experience">
+                Experience
+              </Link>
             </li>
           </ul>
         </nav>

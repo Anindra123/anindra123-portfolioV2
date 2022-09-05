@@ -1,0 +1,25 @@
+.pageBody {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  margin-top: 10rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.imgStyle {
+  border-radius: 50%;
+  border: 5px solid black;
+  width: 400px;
+  height: 400px;
+}
+
+.textContiner {
+  width: 40%;
+}
+
+.textContiner > h2,
+h3 {
+  text-align: justify;
+}
