@@ -23,15 +23,20 @@ const HomepageBody = () => {
         <h3>
           I am currently a computer science student at{" "}
           <a href="https://www.aiub.edu">AIUB</a>. I am passionate about web
-          developement and deep learning and computer vision and want to pursue
-          a dev job or become a research assistant.
+          development and deep learning want to pursue a dev job or become a
+          research assistant.
         </h3>
         <div className={linkContainer}>
           <Link className={linkBtnStyle} to="/contact">
             Contact Me{" "}
           </Link>
-          <a className={linkBtnStyle} href="#">
-            Download CV
+          <a
+            className={linkBtnStyle}
+            target="_blank"
+            rel="noreferrer"
+            href="https://drive.google.com/file/d/1L5fbRYtaoUp5rjmnAMqyBf8OJoUvol2N/view?usp=sharing"
+          >
+            Anindra's CV
           </a>
         </div>
       </div>

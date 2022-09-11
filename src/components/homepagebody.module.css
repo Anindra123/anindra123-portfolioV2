@@ -46,9 +46,10 @@ h3 {
   margin-right: 0.5rem;
   display: inline-block;
   border-radius: 2rem;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease;
 }
 
 .linkBtnStyle:hover {
   transform: translate(5px, -5px);
+  box-shadow: -5px 5px;
 }
